@@ -4,7 +4,8 @@ export default {
     file: 'dist/main.js'
   },
   platform: 'node',
-  external: exclude
+  external: exclude,
+  minify:true
 }
 
 function exclude() {

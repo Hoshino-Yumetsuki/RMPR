@@ -10,12 +10,7 @@
 !.yarn/releases
 !.yarn/versions
 
-# next.js
-/.next/
-/out/
-
-# production
-/build
+dist
 
 # debug
 npm-debug.log*

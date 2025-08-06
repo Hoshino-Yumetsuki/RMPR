@@ -1,13 +1,9 @@
 export default {
   input: 'src/main.ts',
   output: {
-    file: 'dist/main.js'
+    file: 'dist/main.js',
+    minify:true
   },
   platform: 'node',
-  external: exclude,
   minify:true
-}
-
-function exclude() {
-  return true
 }
